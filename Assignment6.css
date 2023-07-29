@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Lato', sans-serif;
+}
+.header{
+	position: relative;
+	height: 80px;
+	width: 100%;
+	z-index: ;
+    padding: 0px;
+    position: sticky;
+    top: 1px;
+}
+.nav{
+	max-width: 100%;
+	margin: 0 auto;
+	border: 2px solid grey;
+    background: grey;
+}
+.nav,
+.nav_item {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	text-decoration: none;
+}
+.logo_nav{
+	font-size: 35px;
+	text-decoration: none;
+	color: white;
+	padding: 60px;
+}
+.logo_nav:hover{
+	color: black;
+
+}
+.nav_item {
+	column-gap: 30px;
+	text-decoration: none;
+
+}
+.nav_link{
+	color: white;
+}
+.nav_link:hover{
+    color: black;
+	border-bottom: 3px solid black;
+}
+.button:active {
+	transform: scale(0.98);
+}
